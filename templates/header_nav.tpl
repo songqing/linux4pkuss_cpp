@@ -10,6 +10,7 @@
                 <li><a href="/controller/system_information/handler.php?type=notice"><b class="icon-bell"></b>课程通知</a></li>
                 <li><a href="/controller/system_information/handler.php?type=article"><b class="icon-book"></b>相关文章</a></li>
                 <li><a href="/controller/system_information/handler.php?type=download"><b class="icon-download"></b>资源下载</a></li>
+                <li><a href="http://sourcecode.zsq.com"><strong>软微linux论坛</strong></a></li>
                 {if isset($smarty.session.user)}
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-th-large"></i>个人中心<b class="caret"></b></a>

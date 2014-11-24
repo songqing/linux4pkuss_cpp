@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2014-11-03 19:07:11
-         compiled from "/home/aclass/workspace/PHP/linux4pkuss/templates/header_nav.tpl" */ ?>
+<?php /* Smarty version Smarty-3.1.19, created on 2014-11-24 14:25:17
+         compiled from "./templates/header_nav.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1354357508545761df5c9c56-53116054%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '70b23bcd319ed87e19991ecea95b9bb33e3c7fcc' => 
     array (
-      0 => '/home/aclass/workspace/PHP/linux4pkuss/templates/header_nav.tpl',
-      1 => 1414248756,
+      0 => './templates/header_nav.tpl',
+      1 => 1416810313,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
   'unifunc' => 'content_545761df5edba6_73742249',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_545761df5edba6_73742249')) {function content_545761df5edba6_73742249($_smarty_tpl) {?><div class="navbar header navbar-fixed-top">
   <div class="navbar-inner">
@@ -31,6 +31,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <li><a href="/controller/system_information/handler.php?type=notice"><b class="icon-bell"></b>课程通知</a></li>
                 <li><a href="/controller/system_information/handler.php?type=article"><b class="icon-book"></b>相关文章</a></li>
                 <li><a href="/controller/system_information/handler.php?type=download"><b class="icon-download"></b>资源下载</a></li>
+                <li><a href="http://sourcecode.zsq.com"><strong>软微linux论坛</strong></a></li>
                 <?php if (isset($_SESSION['user'])) {?>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-th-large"></i>个人中心<b class="caret"></b></a>
