@@ -1,15 +1,15 @@
 <div class="navbar header navbar-fixed-top">
   <div class="navbar-inner">
           <div class="container">
-            <a class="brand" href="/index.php">Linux</a>
+            <a class="brand" href="/index.php">linux课程网站   </a>
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li><a href="/index.php"><b class="icon-home"></b>首页</a></li>
-     <li><a href="/controller/system_information/handler.php?type=introduction"><b class="icon-comment"></b>课程简介</a></li>
-                <li><a href="/controller/system_information/handler.php?type=project"><b class="icon-envelope"></b>项目信息</a></li>
-                <li><a href="/controller/system_information/handler.php?type=notice"><b class="icon-bell"></b>课程通知</a></li>
-                <li><a href="/controller/system_information/handler.php?type=article"><b class="icon-book"></b>相关文章</a></li>
-                <li><a href="/controller/system_information/handler.php?type=download"><b class="icon-download"></b>资源下载</a></li>
+				{* <li><a href="/index.php"><b class="icon-home"></b>首页</a></li>*}
+				<li><a href="/controller/system_information/handler.php?type=introduction"><b class="icon-comment"></b>课程简介   </a></li>
+                <li><a href="/controller/system_information/handler.php?type=project"><b class="icon-envelope"></b>linux内核分析   </a></li>
+				{* <li><a href="/controller/system_information/handler.php?type=notice"><b class="icon-bell"></b>课程通知</a></li>*}
+                <li><a href="http://115.28.11.118/linuxkernel/index.php/en/2013-09-01-06-03-50/linux" target="_blank"><b class="icon-book"></b>相关文章   </a></li>
+                <li><a href="http://115.28.11.118/linuxkernel/index.php/en/2013-10-10-01-56-48" target="_blank"><b class="icon-download"></b>资源下载   </a></li>
                 <li><a href="http://sourcecode.zsq.com"><strong>软微linux论坛</strong></a></li>
                 {if isset($smarty.session.user)}
                 <li class="dropdown">

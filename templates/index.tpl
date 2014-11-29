@@ -87,21 +87,6 @@
 						</p>
 					</div>
 				</div>
-				<div class="portlet box green">
-					<div class="portlet-title">
-						<div class="caption">
-							<i class="icon-book"></i>最新文章
-						</div>
-						<div class="tools">
-							<a href="javascript:;" class="collapse"></a> <a
-								href="#portlet-config" data-toggle="modal" class="config"></a> <a
-								href="javascript:;" class="reload hidden-phone"></a> <a
-								href="javascript:;" class="remove hidden-phone"></a>
-						</div>
-					</div>
-					<div class="portlet-body" id="newArticle">
-					</div>
-				</div>
 				<div class="portlet box purple">
 					<div class="portlet-title">
 						<div class="caption">
@@ -121,6 +106,7 @@
 
 			</div>
 			<div class="span6">
+				{*			
 				<div class="portlet box green">
 
 					<div class="portlet-title">
@@ -272,7 +258,22 @@
 					</div>
 
 				</div>
-
+				*}
+				<div class="portlet box green">
+					<div class="portlet-title">
+						<div class="caption">
+							<i class="icon-book"></i>最新文章
+						</div>
+						<div class="tools">
+							<a href="javascript:;" class="collapse"></a> <a
+								href="#portlet-config" data-toggle="modal" class="config"></a> <a
+								href="javascript:;" class="reload hidden-phone"></a> <a
+								href="javascript:;" class="remove hidden-phone"></a>
+						</div>
+					</div>
+					<div class="portlet-body" id="newArticle">
+					</div>
+				</div>
 				<div class="portlet box grey">
 
 					<div class="portlet-title">
@@ -290,7 +291,7 @@
 						</div>
 					</div>
 					<div class="portlet-body">
-						<div id="pulsate-regular">Linux 内核分析与驱动编程</div>
+						<div ><b><big><center>Linux 内核分析与驱动编程</center></big></b></div>
 						<div class="row-fluid">
 							<div class="span12">
 								<!--Body content-->

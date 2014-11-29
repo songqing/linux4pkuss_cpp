@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2014-11-24 14:25:17
-         compiled from "./templates/header_nav.tpl" */ ?>
+<?php /* Smarty version Smarty-3.1.19, created on 2014-11-29 13:08:09
+         compiled from "/home/aclass/workspace/PHP/linux4pkuss/templates/header_nav.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1354357508545761df5c9c56-53116054%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '70b23bcd319ed87e19991ecea95b9bb33e3c7fcc' => 
     array (
-      0 => './templates/header_nav.tpl',
-      1 => 1416810313,
+      0 => '/home/aclass/workspace/PHP/linux4pkuss/templates/header_nav.tpl',
+      1 => 1417237530,
       2 => 'file',
     ),
   ),
@@ -22,15 +22,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php if ($_valid && !is_callable('content_545761df5edba6_73742249')) {function content_545761df5edba6_73742249($_smarty_tpl) {?><div class="navbar header navbar-fixed-top">
   <div class="navbar-inner">
           <div class="container">
-            <a class="brand" href="/index.php">Linux</a>
+            <a class="brand" href="/index.php">linux课程网站   </a>
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li><a href="/index.php"><b class="icon-home"></b>首页</a></li>
-     <li><a href="/controller/system_information/handler.php?type=introduction"><b class="icon-comment"></b>课程简介</a></li>
-                <li><a href="/controller/system_information/handler.php?type=project"><b class="icon-envelope"></b>项目信息</a></li>
-                <li><a href="/controller/system_information/handler.php?type=notice"><b class="icon-bell"></b>课程通知</a></li>
-                <li><a href="/controller/system_information/handler.php?type=article"><b class="icon-book"></b>相关文章</a></li>
-                <li><a href="/controller/system_information/handler.php?type=download"><b class="icon-download"></b>资源下载</a></li>
+				
+				<li><a href="/controller/system_information/handler.php?type=introduction"><b class="icon-comment"></b>课程简介   </a></li>
+                <li><a href="/controller/system_information/handler.php?type=project"><b class="icon-envelope"></b>linux内核分析   </a></li>
+				
+                <li><a href="http://115.28.11.118/linuxkernel/index.php/en/2013-09-01-06-03-50/linux" target="_blank"><b class="icon-book"></b>相关文章   </a></li>
+                <li><a href="http://115.28.11.118/linuxkernel/index.php/en/2013-10-10-01-56-48" target="_blank"><b class="icon-download"></b>资源下载   </a></li>
                 <li><a href="http://sourcecode.zsq.com"><strong>软微linux论坛</strong></a></li>
                 <?php if (isset($_SESSION['user'])) {?>
                 <li class="dropdown">

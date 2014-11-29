@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2014-11-03 19:10:23
+<?php /* Smarty version Smarty-3.1.19, created on 2014-11-29 13:09:29
          compiled from "/home/aclass/workspace/PHP/linux4pkuss/templates/system_information/introduction.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:16222160455457629fc22c54-55298852%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9114ec17274779efbb457674aa03a334890055f5' => 
     array (
       0 => '/home/aclass/workspace/PHP/linux4pkuss/templates/system_information/introduction.tpl',
-      1 => 1414248756,
+      1 => 1417237764,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
   'unifunc' => 'content_5457629fc69206_32106296',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5457629fc69206_32106296')) {function content_5457629fc69206_32106296($_smarty_tpl) {?><!DOCTYPE html>
 <html>
@@ -158,7 +158,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						</div>
 					</div>
 					<div class="portlet-body">
-						<div id="pulsate-regular">Linux 内核分析与驱动编程</div>
+						<div><b><big><center>Linux 内核分析与驱动编程</center></big></b></div>
 						<div class="row-fluid">
 							<div class="span12">
 								<!--Body content-->
@@ -336,8 +336,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						</div>
 					</div>
 					<div class="portlet-body">
-						<div id="pulsate-regular">荆琦（女） 副教授，博士 Email:
-							jingqi@pku.edu.cn</div>
+						<div><big><center>荆琦（女） 副教授，博士 Email:
+							jingqi@pku.edu.cn</center></big></div>
 						<div class="row-fluid">
 							<div class="span3">
 								<!--Sidebar content-->

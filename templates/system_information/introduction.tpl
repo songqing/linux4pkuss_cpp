@@ -136,7 +136,7 @@
 						</div>
 					</div>
 					<div class="portlet-body">
-						<div id="pulsate-regular">Linux 内核分析与驱动编程</div>
+						<div><b><big><center>Linux 内核分析与驱动编程</center></big></b></div>
 						<div class="row-fluid">
 							<div class="span12">
 								<!--Body content-->
@@ -314,8 +314,8 @@
 						</div>
 					</div>
 					<div class="portlet-body">
-						<div id="pulsate-regular">荆琦（女） 副教授，博士 Email:
-							jingqi@pku.edu.cn</div>
+						<div><big><center>荆琦（女） 副教授，博士 Email:
+							jingqi@pku.edu.cn</center></big></div>
 						<div class="row-fluid">
 							<div class="span3">
 								<!--Sidebar content-->
